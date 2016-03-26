@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+	
+}
+input{
+	width: 100px;
+	height:20px;
+	
+	transition:width 3s;
+	-moz-transition:width 3s;
+	-webkit-transition:width 3s;
+	-o-transition:width 3s;
+}
+input:focus{
+     width: 500px;
+}
+
+body{
+	margin: 20px;
+}
+table tbody tr:nth-child(2n+1){
+	background-color: #ccc;
+	color: #000;
+}
+table tbody tr:first-child{
+	background-color: black;
+	color: #fff;
+}
+
+table tbody tr:nth-child(2),table tbody tr:nth-child(3),table tbody tr:nth-child(4){
+	color: red;
+}
+
+
+/*@keyframes banner{
+	0%  {width: ;}
+}*/
+.warp{
+	width: 250px;
+	height: 200px;
+	margin-top: 30px;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+
+
+.green{
+	
+	bottom: 0px;
+	right: 68px;
+
+}
+ .blue{
+	
+	
+	right:34px;
+	bottom: 0px;
+}
+.red{
+	
+	bottom: 0px;
+	right: 0px;
+	
+}
+
+
+.st-warp{
+	font-size:0;
+	width: 300%;
+	height: 100%;
+	position: relative;
+	left: 0;
+	-webkit-backface-visibility:hidden;
+	-webkit-transition:all 0.6s ease-in-out;
+	transition:all 0.6s ease-in-out;
+	
+}
+ @keyframes jicemoon {
+
+            0%{
+                left: 0%;
+            }
+            34%{
+                left: -100%;
+            }
+            67%{
+                left: -200%;
+            }
+           
+            100%{
+                left: 0%;
+            }  }
+ul li{
+	position: relative;
+	display: inline-block;
+    list-style: none;
+    width: 250px;
+    height: 200px;
+}
+ul li:nth-child(1){
+	background-color: green;
+}
+ul li:nth-child(2){
+	background-color: blue;
+}
+ul li:nth-child(3){
+	background-color: red;s
+}
+
+.warp a{
+    text-decoration: none;
+    display: block;
+    width: 33px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 16px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    opacity: 0.5;
+    z-index: 10;
+     position: absolute;
+
+}
+#li1:target ~ .st-warp{
+	left: 0%;
+}
+#li2:target ~ .st-warp{
+	left:-100%;
+}
+#li3:target ~ .st-warp{
+	left:-200%;
+}
+
+.st-warp2{
+	font-size:0;
+	width: 300%;
+	height: 100%;
+	position: relative;
+	left: 0;
+	 animation-name: jicemoon;
+     animation-duration: 12s;
+     animation-iteration-count: infinite;
+     animation-timing-function: cubic-bezier(0,0,0.1,1);
+}
