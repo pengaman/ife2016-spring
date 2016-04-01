@@ -2,11 +2,16 @@
     box-sizing: border-box;
 }
 
+.clearfix {
+    overflow:auto;_height:1%
+}
+
 #container {
     width: 980px;
     height: 1386px;
     margin: 0 auto;
     padding: 0 44px;
+    position: relative;
     border: 1px solid #888;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
     font-family: "Microsoft Yahei",sans-serif;
@@ -43,3 +48,320 @@ header > span {
 }
 /*header end banner begin*/
 
+#banner_area {
+    position: relative;
+    margin-top: 35px;
+}
+
+#banner_image {
+    width: 641px;
+    height: 301px;
+    background: url("../img/banner.png");
+    position: relative;
+}
+
+#banner_image > img#green {
+    float: left;
+}
+
+#banner_image > img#red {
+    float: right;
+}
+
+#what_when_how {
+    width: 641px;
+    float: left;
+}
+
+.wwh {
+    font-size: 12px;
+    width: 203px;
+    float: left;
+    overflow: auto;
+    margin-right: 16px;
+}
+
+#how {
+    margin-right: 0;
+}
+
+.wwh > h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#what > h2 {
+    color: #418c59;
+}
+
+#when > h2 {
+    color: #d2994f;
+}
+
+#how > h2 {
+    color: #cc7680;
+}
+
+#how span {
+    color: #cd4a48;
+    font-style: oblique;
+    opacity: 0.7;
+}
+
+#banner_aside {
+    width: 203px;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 2px solid #cc8091;
+}
+
+#banner_aside > h2 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#banner_aside > h2:first-letter {
+    font-size: 34px;
+}
+
+#banner_aside > p {
+    font-family: KaiTi,sans-serif;
+    font-size: 12px;
+    margin: 0;
+    color: #676767;
+}
+
+span#r1 {
+    font-size: 116px;
+    font-style: oblique;
+    margin-left: -15px;
+    color: #57b86b;
+}
+
+span#r2 {
+    font-size: 55px;
+    color: #cc8091;
+}
+
+span#r3 {
+    font-size: 21px;
+    color: #cc8091;
+    position: relative;
+    top: -12px;
+}
+
+span#r4 {
+    font-size: 12px;
+    color: #cc8091;
+    position: relative;
+    left: -36px;
+}
+/*banner end and content begin*/
+
+#content_area {
+    position: relative;
+    margin-top: 260px;
+}
+
+#left {
+    width: 415px;
+}
+
+#title {
+    border-bottom: 2px solid #11456b;
+}
+
+#title p {
+    font-weight: bold;
+    font-family: SimHei;
+    font-size: 42px;
+    color: #11456b;
+    line-height: 16px;
+}
+
+#title span {
+    font: oblique bold 72px SimHei;
+    color: #f5e327;
+}
+
+#title p:last-child {
+    font-weight: bold;
+    font-size: 33px;
+    margin-top: -20px;
+}
+
+#content > p {
+    font: 12px/16px Simsun;
+    letter-spacing: 2px;
+    color: #767777;
+}
+
+#content > p:first-letter {
+    font-size: 70px;
+    font-family: "Microsoft Yahei";
+    line-height: 60px;
+    padding: 0 8px 13px 0;
+    float: left;
+    color: #f5e327;
+}
+
+#content img {
+    float: right;
+    margin: 24px 0 24px 24px;
+}
+
+#right {
+    width: 458px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#right #top {
+    width: 458px;
+    height: 275px;
+    background: url("../img/pic2.png");
+    position: relative;
+    background-size: cover;
+}
+
+#right #black {
+    width: 100%;
+    height: 61px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+}
+
+#right #black > p {
+    font-size: 26px;
+    color: #fff;
+    margin: 13px auto 13px 20px;
+    padding: 0 10px;
+    border-left: 3px solid #72b16a;
+}
+
+#black span {
+    font-size: 12px;
+    font-style: oblique;
+    letter-spacing: 140%;
+    color: #72b16a;
+    margin-left: 10px;
+}
+
+#right #bottom {
+    width: 458px;
+    height: 318px;
+    background: #eeedd6;
+    margin-top: 30px;
+}
+
+#bottom > ul {
+    list-style-image: url("../img/list.png");
+    padding: 30px;
+    padding-left: 60px;
+    font-family: SimSun;
+    font-size: 16px;
+}
+
+#bottom li {
+    padding-top: 20px;
+}
+
+#bottom li:first-child {
+    padding-top: 0;
+}
+
+#bottom span {
+    float: right;
+    font-size: 12px;
+    font-style: oblique;
+    color: #5a5b5b;
+}
+
+#bottom > #number {
+    width: 260px;
+    height: 160px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background: #d45d5c;
+}
+
+#number > span {
+    font-size: 110px;
+    font-style: normal;
+    line-height: 86px;
+    float: left;
+    color: #fff;
+    margin: 37px 10px;
+    padding-right: 3px;
+    border-right: 2px solid #fff;
+}
+
+#number > p {
+    font: oblique 21px/24px SimHei;
+    margin-bottom: 0;
+    margin-top: 30px;
+    
+}
+
+#number > p:last-child {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 6px;
+    margin-top: 5px;
+}
+
+#bottom > p {
+    width: 160px;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    font: oblique 14px/16px SimHei;
+    color: #5a5b5b;
+}
+
+#bottom > p span {
+    float: left;
+    font-size: 72px;
+    color: #d45d5c;
+    position: relative;
+    bottom: -14px;
+    margin: 0 14px 0 -50px;
+    padding-bottom: -10px;
+}
+
+#bottom >p span:last-child {
+    margin-right: -14px;
+    position: relative;
+    bottom: -28px;
+    float: right;
+}
+/*content end footer begin*/
+
+footer {
+    width: 892px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #938e8c;
+}
+
+footer > span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    color: #d45d5c;
+}

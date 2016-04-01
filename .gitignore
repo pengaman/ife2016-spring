@@ -1,1 +1,8 @@
 sync.ffs_db
+<<<<<<< HEAD
+.idea/
+*.iml
+=======
+.idea/
+*.iml
+>>>>>>> gh-pages
