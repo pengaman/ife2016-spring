@@ -1,0 +1,37 @@
+html,body{
+	width:100%;
+	margin:0;
+	padding: 0;
+}
+h1{
+	width:100%;
+	color:#999;
+	text-align: center;
+}
+h2{
+	color:#999;
+}
+div{
+	width:50%;
+	margin: 0 auto;
+}
+ul{
+	width:100%;
+	list-style: none;
+}
+li{
+	width:100%;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #bbb;
+	font-size: 23px;
+	font-weight: 500;
+	display: inline-block;
+	margin:5px 20px;
+}
+.tasklist{
+	color:#62BF62;
+	font-weight: 700;
+}
