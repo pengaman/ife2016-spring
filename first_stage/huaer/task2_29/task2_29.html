@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+	<title>task29</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin:0;
+			border:none;
+		}
+		.form{
+			margin-top: 30px;
+			width:100%;
+		}
+		#username{
+			width:200px;
+			height:25px;
+			border: 1px #ddd solid;
+		}
+		table{
+			margin:0 auto;
+		}
+		#sub{
+			width:50px;
+			height:25px;
+			background-color: #028AFC;
+			color:#fff;
+			border: 1px #ddd solid;
+			margin-left: 8px;
+		}
+		#result{
+			color:#ccc;
+			display: block;
+		}
+	</style>
+
+</head>
+<body>
+		<form class="form">
+		<table>
+			<tr>
+				<td>
+					<label for="username">名称：</label>
+				</td>
+				<td><input id="username" name="username" type="text"></td>
+				<td><input id="sub" type="submit" value="验证" /></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><p id="result">必填，长度4-16个字符</p></td>
+				<td></td>
+			</tr>
+		</table>
+	</form>
+	<script type="text/javascript" src="task2_29.js"></script>
+</body>
+</html>

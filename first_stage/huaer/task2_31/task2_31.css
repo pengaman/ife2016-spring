@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	min-width: 460px;
+}
+#container{
+	width:400px;
+	margin:30px auto;
+}
+.row{
+	font-size: 20px;
+	margin:10px;
+	text-align: center;
+}
+#row2 select option,#row2 select{
+	font-size: 18px; 
+	width:110px;
+}
+#row3 #work{
+	font-size: 18px;
+	width: 200px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+	<title>task30</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin:0;
+			border:none;
+		}
+		.form{
+			margin-top: 30px;
+			width:100%;
+		}
+		.tabletr{
+			width:200px;
+			height:30px;
+			border: 1px #ddd solid;
+		}
+		table{
+			margin:0 auto;
+		}
+		#sub{
+			width:50px;
+			height:25px;
+			background-color: #028AFC;
+			color:#fff;
+			border: 1px #ddd solid;
+			margin-top: 15px;
+			float: right;
+		}
+		.dis{
+			display:none;
+		}
+		p{
+			margin-bottom: 5px;
+			margin-top:-3px;
+		}
+	</style>
+
+</head>
+<body>
+		<form class="form" method="post" action="">
+		<table cellspacing="10px">
+			<tr>     
+				<td>
+					<label for="username">名称</label>
+				</td>
+				<td><input class="tabletr" id="username" name="username" type="text"></td>
+			</tr>
+			<tr  class="dis">
+					<td></td>
+					<td><p id="resultuser">必填，长度4-16个字符</p></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<label for="pass">密码</label>
+				</td>
+				<td><input class="tabletr" id="pass" name="pass" type="password"></td>
+			</tr>
+			<tr class="dis">
+					<td></td>
+					<td><p id="resultpass">输入密码，长度9-16个字符</p></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<label for="passfirm">确认密码</label>
+				</td>
+				<td><input class="tabletr" id="passfirm" name="passfirm" type="password"></td>
+			</tr>
+			<tr class="dis" >
+					<td></td>
+					<td><p id="resultpassfirm">再次输入密码</p></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<label for="mail">邮箱</label>
+				</td>
+				<td><input class="tabletr" id="mail" name="mail" type="text"></td>
+			</tr>
+			<tr class="dis">
+					<td></td>
+					<td><p id="resultmail">输入邮箱</p></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<label for="phone">手机</label>
+				</td>
+				<td><input class="tabletr" id="phone" name="phone" type="text"></td>
+			</tr>				
+			<tr class="dis">
+					<td></td>
+					<td><p id="resultphone">输入手机号</p></td>
+			</tr>
+			
+			<tr>
+				<td></td>
+				<td><input type="submit" id="sub" value="提交"></td>
+			</tr>
+			
+		</table>
+	</form>
+	<script type="text/javascript" src="task2_30.js"></script>
+</body>
+</html>
