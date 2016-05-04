@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width:100%;
+
+}
+#acti{
+	width:100%;
+	height:700px;
+}
+.shelter{
+	width: 100%;
+	height: 100%;
+	background-color: #666;
+	position: fixed;
+	left:0;
+	top:0;
+	opacity: 0.3;
+}
+.confirm{
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:240px;
+	height:150px;
+	margin-left:-100px;
+	margin-top: -75px;
+	background-color: #eee;
+}
+h1{
+	background-color: #15789A;
+	font-size: 25px;
+	padding:5px;
+}
+.confirm h1 span{
+	float: right;
+	font-weight: 500;
+	display:block;
+	font-size: 25px;
+	cursor: pointer;
+	width:29px;
+	height:29px;
+	text-align: center;
+
+}
+.confirm button{
+	position:absolute;
+	bottom: 5px;
+	font-size: 16px;
+	padding:3px 5px;
+}
+.confirm .cancel{
+	right:18px;
+}
+.confirm .sure{
+	left:18px;
+}
+
