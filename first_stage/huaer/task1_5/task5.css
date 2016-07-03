@@ -1,6 +1,9 @@
+*{
+	padding:0;
+	margin:0;
+}
 html,body{
-	width: 100%;
-	
+	width: 100%;	
 	color: #000;
 	margin: 0;
 	padding: 0;
@@ -53,7 +56,7 @@ img{
 }
 
 li{
-	
+	width:60px;
 	float: left;
 	color: #000;
 	margin:0 20px;
@@ -68,7 +71,6 @@ ul{
 }
 li a{
 	color: #fff;
-	
 	text-decoration: none;
 }
 
